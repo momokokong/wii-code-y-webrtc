@@ -93,6 +93,7 @@ const onconnection = conn => {
               topic.add(conn)
               // add topic to conn
               subscribedTopics.add(topicName)
+              console.log([...topics.entries()]);
             }
           })
           break
